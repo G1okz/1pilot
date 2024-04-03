@@ -8,3 +8,43 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: relative;
+  overflow: hidden;
+  padding: 85px 75px;
+}
+.red-backgroundcolor {
+  background-color: #e03d2e;
+}
+.logo {
+  width: 70%;
+}
+
+.yellow-text {
+  color:#ffd800;
+}
+
+.ocultar {
+  display: none;
+}
+
+.header-img {
+position: absolute;
+height: 200%;
+top:50px;
+right: 50px;
+}
+
+.header-boton {
+  background-color: #ffd800;
+  color:black;
+  width: 20%;
+  height: 50px;
+}
